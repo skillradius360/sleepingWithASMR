@@ -1,0 +1,91 @@
+*,::after,::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    transition: background ease-in 0.3s;
+
+} 
+
+main{
+height:100vh;
+width:80vw;
+padding:30px;
+backdrop-filter: blur(20px);
+
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    height:14rem;
+    width:12rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+    padding:50px 0;
+}
+
+.SeekBar{
+    width:80%;
+    height:3px;
+    background-color:white;
+    position: relative;
+
+}
+
+.Seeker{
+    height: 10px;
+    width:10px;
+    background-color: black;
+    position: absolute;
+    border-radius: 2px;
+    bottom:-2.5px;
+    left:0;
+}
+
+img{
+    position: relative;
+    z-index:4;
+}
+
+.card{
+    height:14rem;
+    width:12rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+    padding:50px 0;
+}
+
+.thunderStormSeekBar{
+    width:80%;
+    height:3px;
+    background-color:white;
+    position: relative;
+
+}
+
+.thunderStormSeeker{
+    height: 10px;
+    width:10px;
+    background-color: black;
+    position: absolute;
+    border-radius: 2px;
+    bottom:-2.5px;
+    left:0;
+}
+
+img{
+    position: relative;
+    z-index:4;
+}
